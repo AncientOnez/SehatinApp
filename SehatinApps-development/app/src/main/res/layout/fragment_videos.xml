@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.VideosFragment"
+    android:layout_marginBottom="50dp">
+
+
+    <ScrollView
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".DashboardActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:id="@+id/horizontalScrollView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:foregroundGravity="center_vertical"
+                android:layout_marginTop="20dp"
+                tools:ignore="MissingConstraints">
+
+                <!-- child view -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:foregroundGravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginBottom="10dp">
+
+
+                        <ImageView
+                            android:layout_width="380dp"
+                            android:layout_height="500dp"
+                            android:src="@drawable/slide1" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:orientation="horizontal">
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:elevation="12dp"
+                                app:cardCornerRadius="40dp"
+                                android:layout_centerHorizontal="true"
+                                android:innerRadius="0dp"
+                                android:shape="ring"
+                                android:backgroundTint="@color/secondary"
+                                android:thicknessRatio="1.9">
+                                <ImageView
+                                    android:layout_height="38dp"
+                                    android:layout_width="match_parent"
+                                    tools:src="@drawable/ic_person"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_centerHorizontal="true">
+                                </ImageView>
+                            </androidx.cardview.widget.CardView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="By Niki Samantha"
+                                android:layout_marginLeft="30dp"
+                                android:textStyle="bold"
+                                android:textSize="20dp"/>
+
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:text="Follow"
+                                android:layout_marginLeft="40dp"
+                                android:textAllCaps="false"
+                                android:backgroundTint="@color/red"
+                                app:theme="@style/FollowButton"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginBottom="10dp">
+
+
+                        <ImageView
+                            android:layout_width="380dp"
+                            android:layout_height="500dp"
+                            android:src="@drawable/slide1" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:orientation="horizontal">
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:elevation="12dp"
+                                app:cardCornerRadius="40dp"
+                                android:layout_centerHorizontal="true"
+                                android:innerRadius="0dp"
+                                android:shape="ring"
+                                android:backgroundTint="@color/secondary"
+                                android:thicknessRatio="1.9">
+                                <ImageView
+                                    android:layout_height="38dp"
+                                    android:layout_width="match_parent"
+                                    tools:src="@drawable/ic_person"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_centerHorizontal="true">
+                                </ImageView>
+                            </androidx.cardview.widget.CardView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="By Niki Samantha"
+                                android:layout_marginLeft="30dp"
+                                android:textStyle="bold"
+                                android:textSize="20dp"/>
+
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:text="Follow"
+                                android:layout_marginLeft="40dp"
+                                android:textAllCaps="false"
+                                android:backgroundTint="@color/red"
+                                app:theme="@style/FollowButton"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginBottom="10dp">
+
+
+                        <ImageView
+                            android:layout_width="380dp"
+                            android:layout_height="500dp"
+                            android:src="@drawable/slide1" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:orientation="horizontal">
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:elevation="12dp"
+                                app:cardCornerRadius="40dp"
+                                android:layout_centerHorizontal="true"
+                                android:innerRadius="0dp"
+                                android:shape="ring"
+                                android:backgroundTint="@color/secondary"
+                                android:thicknessRatio="1.9">
+                                <ImageView
+                                    android:layout_height="38dp"
+                                    android:layout_width="match_parent"
+                                    tools:src="@drawable/ic_person"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_centerHorizontal="true">
+                                </ImageView>
+                            </androidx.cardview.widget.CardView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="By Niki Samantha"
+                                android:layout_marginLeft="30dp"
+                                android:textStyle="bold"
+                                android:textSize="20dp"/>
+
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:text="Follow"
+                                android:layout_marginLeft="40dp"
+                                android:textAllCaps="false"
+                                android:backgroundTint="@color/red"
+                                app:theme="@style/FollowButton"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginBottom="10dp">
+
+
+                        <ImageView
+                            android:layout_width="380dp"
+                            android:layout_height="500dp"
+                            android:src="@drawable/slide1" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:orientation="horizontal">
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:elevation="12dp"
+                                app:cardCornerRadius="40dp"
+                                android:layout_centerHorizontal="true"
+                                android:innerRadius="0dp"
+                                android:shape="ring"
+                                android:backgroundTint="@color/secondary"
+                                android:thicknessRatio="1.9">
+                                <ImageView
+                                    android:layout_height="38dp"
+                                    android:layout_width="match_parent"
+                                    tools:src="@drawable/ic_person"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_centerHorizontal="true">
+                                </ImageView>
+                            </androidx.cardview.widget.CardView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="By Niki Samantha"
+                                android:layout_marginLeft="30dp"
+                                android:textStyle="bold"
+                                android:textSize="20dp"/>
+
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:text="Follow"
+                                android:layout_marginLeft="40dp"
+                                android:textAllCaps="false"
+                                android:backgroundTint="@color/red"
+                                app:theme="@style/FollowButton"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+            </ScrollView>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</FrameLayout>
